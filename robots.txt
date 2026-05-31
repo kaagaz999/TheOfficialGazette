@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://thegazette.in/sitemap.xml
+Sitemap: https://theofficialgazette.pages.dev/sitemap.xml
 
 # This site is satire. The government, however, is not.

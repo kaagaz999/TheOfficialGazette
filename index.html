@@ -6,17 +6,17 @@
 
   <!-- ── PRIMARY SEO ──────────────────────────────────────── -->
   <title>The Official Gazette — Vol. I · No. 22</title>
-  <meta name="description"        content="Historic reforms have delivered unprecedented prosperity to every household. Vol. I · No. 22 — Satirical record of Indian government policies and governance failures.">
+  <meta name="description"        content="The Official Gazette — Indian political satire. Vol. I · No. 22. Case files on electoral bonds, demonetisation, farm laws, Pegasus, and governance failures.">
   <meta name="author"             content="The Official Gazette Editorial Desk">
-  <link rel="canonical"           href="https://thegazette.in/">
+  <link rel="canonical"           href="https://theofficialgazette.pages.dev/">
 
   <!-- ── OPEN GRAPH ───────────────────────────────────────── -->
   <meta property="og:type"        content="website">
   <meta property="og:site_name"   content="The Official Gazette">
   <meta property="og:title"       content="The Official Gazette — Vol. I · No. 22">
-  <meta property="og:description" content="Historic reforms have delivered unprecedented prosperity to every household. Vol. I · No. 22 — Satirical record of Indian government policies and governance failures.">
-  <meta property="og:url"         content="https://thegazette.in/">
-  <meta property="og:image"       content="https://thegazette.in/og-image.jpg">
+  <meta property="og:description" content="The Official Gazette — Indian political satire. Vol. I · No. 22. Case files on electoral bonds, demonetisation, farm laws, Pegasus, and governance failures.">
+  <meta property="og:url"         content="https://theofficialgazette.pages.dev/">
+  <meta property="og:image"       content="https://theofficialgazette.pages.dev/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt"   content="The Official Gazette — Satirical record of Indian governance">
@@ -25,8 +25,8 @@
   <!-- ── TWITTER CARD ─────────────────────────────────────── -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:title"       content="The Official Gazette — Vol. I · No. 22">
-  <meta name="twitter:description" content="Historic reforms have delivered unprecedented prosperity to every household. Vol. I · No. 22 — Satirical record of Indian government policies and governance failures.">
-  <meta name="twitter:image"       content="https://thegazette.in/og-image.jpg">
+  <meta name="twitter:description" content="The Official Gazette — Indian political satire. Vol. I · No. 22. Case files on electoral bonds, demonetisation, farm laws, Pegasus, and governance failures.">
+  <meta name="twitter:image"       content="https://theofficialgazette.pages.dev/og-image.jpg">
   <meta name="twitter:image:alt"   content="The Official Gazette">
 
   <!-- ── FAVICONS ──────────────────────────────────────────── -->
@@ -44,7 +44,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "The Official Gazette",
-      "url": "https://thegazette.in/",
+      "url": "https://theofficialgazette.pages.dev/",
       "description": "Historic reforms have delivered unprecedented prosperity to every household. Vol. I · No. 22 — Satirical record of Indian government policies and governance failures.",
       "inLanguage": "en-IN",
       "isAccessibleForFree": true,
@@ -55,13 +55,21 @@
       "@context": "https://schema.org",
       "@type": "NewsMediaOrganization",
       "name": "The Official Gazette",
-      "url": "https://thegazette.in",
+      "url": "https://theofficialgazette.pages.dev",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://thegazette.in/assets/favicon-192.png",
+        "url": "https://theofficialgazette.pages.dev/assets/favicon-192.png",
         "width": 192,
         "height": 192
       },
+      "sameAs": [
+        "https://thegazette.pages.dev",
+        "https://thegazette.vercel.app",
+        "https://theofficialgazette.vercel.app",
+        "https://theofficialgazette.pages.dev",
+        "https://theindiangazette.pages.dev",
+        "https://theofficialgazette.netlify.app"
+      ],
       "foundingDate": "2025",
       "description": "Satirical record of Indian governance.",
       "about": [
@@ -915,7 +923,7 @@ function renderHero() {
   document.getElementById('hero-grid').innerHTML = `
     <div class="hero-main">
       <div class="bulletin-tag">${b.tag}</div>
-      <div class="bulletin-headline">${b.headline}</div>
+      <h1 class="bulletin-headline">${b.headline}</h1>
       <div class="bulletin-body">${applyRedactions(b.subtext)}</div>
       <div class="stamp-area">
         <div>
@@ -940,7 +948,7 @@ function renderFiles() {
           <span class="file-id">${f.id}</span>
           <span class="${sc}" data-stamp>${f.stamp}</span>
         </div>
-        <div class="file-title">${f.title}</div>
+        <h2 class="file-title">${f.title}</h2>
         <div class="vs-wrap">
           <div class="vs-col official">
             <div class="vs-head">Official Claim</div>
@@ -963,7 +971,7 @@ function renderSchemes() {
     <div class="scheme-row" style="transition-delay:${i * 75}ms">
       <div class="scheme-code">${s.code}</div>
       <div class="scheme-body">
-        <div class="scheme-title">${s.title}</div>
+        <h2 class="scheme-title">${s.title}</h2>
         <div class="scheme-desc">${s.description}</div>
       </div>
       <div class="scheme-meta">
@@ -1070,5 +1078,30 @@ function boot() {
 
 document.addEventListener('DOMContentLoaded', boot);
 </script>
+
+<noscript>
+<div style="max-width:1060px;margin:0 auto;padding:0 32px;font-family:serif;">
+  <h1 style="font-size:2em;margin:1em 0 0.25em;">The Official Gazette</h1>
+  <p style="margin:0 0 1em;color:#555;">Vol. I · No. 22 · Indian political satire · Ministry of Accountability (Post Vacant Since 1947)</p>
+  <h2>Official Bulletin</h2>
+  <p>"I am pained to read how a section of the media has misquoted my oral observations." — Office of the Chief Justice of India. The transcript remains on record.</p>
+  <h2>Case Files</h2>
+  <ul>
+    <li><strong>The Cockroach Remarks</strong> — CJI May 2026: transcript vs clarification.</li>
+    <li><strong>Bihar Electoral Roll Revision</strong> — 47 lakh voters removed ahead of elections.</li>
+    <li><strong>Electoral Bonds</strong> — ₹16,518 crore raised, struck down by Supreme Court Feb 2024.</li>
+    <li><strong>Demonetisation</strong> — 99.3% of notes returned. Black money: unaffected.</li>
+    <li><strong>The Three Farm Laws</strong> — Repealed after 700+ farmer deaths. Timing: 4 months before UP elections.</li>
+    <li><strong>Pegasus Surveillance</strong> — 300+ verified Indian targets. Government declined to cooperate with Supreme Court panel.</li>
+  </ul>
+  <h2>Upcoming Schemes</h2>
+  <ul>
+    <li>Pradhan Mantri Vaad-Vivaad Samadhan Yojana (Clarification Edition)</li>
+    <li>Swachh Matdata Suchi Abhiyan (Special Intensive Edition)</li>
+    <li>Rashtriya Narrative Suraksha Yojana (Digital Edition)</li>
+  </ul>
+  <p style="color:#555;font-size:0.85em;">This site is satire. The government, however, is not.</p>
+</div>
+</noscript>
 </body>
 </html>
